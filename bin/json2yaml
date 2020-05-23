@@ -1,0 +1,10 @@
+#!/usr/bin/env node
+
+require = require('esm')(module);
+const nodeArgs = process.argv.slice(0, 2);
+const optionalArgs = process.argv.slice(2);
+require('../src/cli').cli([
+    ...nodeArgs,
+    'json2yaml',
+    ...optionalArgs,
+].filter(Boolean));

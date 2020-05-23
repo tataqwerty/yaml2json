@@ -1,0 +1,19 @@
+{
+  "name": "yaml2json",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "esm": "^3.2.25",
+    "js-yaml": "^3.14.0",
+    "yargs": "^15.3.1"
+  },
+  "bin": {
+    "yaml2json": "bin/yaml2json",
+    "json2yaml": "bin/json2yaml"
+  }
+}
